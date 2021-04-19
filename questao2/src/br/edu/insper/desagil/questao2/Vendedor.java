@@ -14,8 +14,8 @@ public class Vendedor extends Usuario {
 		
 	}
 	public void cadastraProduto( String nome, double preco) {
-		 Produto novoProduto = new Produto(nome, preco);
-		 this.produtos.add(novoProduto);
+		 Produto novo = new Produto(nome, preco);
+		 this.produtos.add(novo);
 	}
 	
 }
